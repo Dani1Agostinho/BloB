@@ -22,9 +22,7 @@ if (done == 0)
 		if (vsp > 0 ) 
 		{
 			done = 1;
-			image_index =1;
 		}
-		
 		while (!place_meeting(x ,y + sign(vsp),oWall))
 		{
 			y += sign(vsp);

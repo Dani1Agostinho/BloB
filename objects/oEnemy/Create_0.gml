@@ -5,6 +5,7 @@ walksp = 4;
 
 hp = 10;
 flash = 0;
-hitfloor = 0;
+hitfrom = 0;
+
 
 
