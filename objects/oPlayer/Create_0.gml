@@ -4,3 +4,4 @@ grv = 0.3;
 walksp = 4;
 
  
+#macro crazy_time (10 * 1000)

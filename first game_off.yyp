@@ -17,7 +17,6 @@
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":1,},
     {"id":{"name":"sSlimeDeath","path":"sprites/sSlimeDeath/sSlimeDeath.yy",},"order":7,},
     {"id":{"name":"sEnemybase","path":"sprites/sEnemybase/sEnemybase.yy",},"order":9,},
-    {"id":{"name":"oImportant","path":"objects/oImportant/oImportant.yy",},"order":0,},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},"order":2,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
