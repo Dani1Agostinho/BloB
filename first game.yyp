@@ -58,10 +58,10 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.2.0.614",
+    "IDEVersion": "2022.1.1.610",
   },
-  "resourceVersion": "1.5",
-  "name": "first game_off",
+  "resourceVersion": "1.4",
+  "name": "first game",
   "tags": [],
   "resourceType": "GMProject",
 }
