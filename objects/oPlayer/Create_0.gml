@@ -4,4 +4,4 @@ grv = 0.3;
 walksp = 4;
 
  
-#macro crazy_time (60 * 1000)
+#macro crazy_time (60 * 60 * 1000)
