@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sEnemybase","path":"sprites/sEnemybase/sEnemybase.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "sEnemybase",
     "tags": [],
     "resourceType": "GMSequence",

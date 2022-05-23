@@ -15,6 +15,7 @@
     {"id":{"name":"oBullet","path":"objects/oBullet/oBullet.yy",},"order":4,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":1,},
+    {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"order":6,},
     {"id":{"name":"sSlimeDeath","path":"sprites/sSlimeDeath/sSlimeDeath.yy",},"order":7,},
     {"id":{"name":"sEnemybase","path":"sprites/sEnemybase/sEnemybase.yy",},"order":9,},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},"order":2,},

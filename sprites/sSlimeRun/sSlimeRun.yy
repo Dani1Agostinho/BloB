@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sSlimeRun","path":"sprites/sSlimeRun/sSlimeRun.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "sSlimeRun",
     "tags": [],
     "resourceType": "GMSequence",

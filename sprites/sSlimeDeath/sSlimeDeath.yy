@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sSlimeDeath","path":"sprites/sSlimeDeath/sSlimeDeath.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "sSlimeDeath",
     "tags": [],
     "resourceType": "GMSequence",

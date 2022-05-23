@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sSlimeJump","path":"sprites/sSlimeJump/sSlimeJump.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "sSlimeJump",
     "tags": [],
     "resourceType": "GMSequence",
