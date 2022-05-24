@@ -1,10 +1,15 @@
 {
   "resources": [
+    {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"order":6,},
+    {"id":{"name":"sTree","path":"sprites/sTree/sTree.yy",},"order":12,},
     {"id":{"name":"sPlayerRun","path":"sprites/sPlayerRun/sPlayerRun.yy",},"order":4,},
+    {"id":{"name":"sMountain","path":"sprites/sMountain/sMountain.yy",},"order":11,},
+    {"id":{"name":"sBackground","path":"sprites/sBackground/sBackground.yy",},"order":13,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
     {"id":{"name":"oGun","path":"objects/oGun/oGun.yy",},"order":2,},
     {"id":{"name":"oDead","path":"objects/oDead/oDead.yy",},"order":5,},
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"order":3,},
+    {"id":{"name":"oGlobal","path":"objects/oGlobal/oGlobal.yy",},"order":7,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
     {"id":{"name":"Shader1","path":"shaders/Shader1/Shader1.yy",},"order":0,},
     {"id":{"name":"sBullet","path":"sprites/sBullet/sBullet.yy",},"order":10,},
