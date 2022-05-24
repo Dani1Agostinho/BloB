@@ -28,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oCamera",
+  "name": "oCamera2",
   "tags": [],
   "resourceType": "GMObject",
 }
