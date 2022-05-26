@@ -1,6 +1,6 @@
 with (other)
 {
-	hp = hp -2;
+	hp = hp -4;
 	flash = 2;
 	hitfrom = other.direction;
 }

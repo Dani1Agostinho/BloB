@@ -12,7 +12,6 @@ if (mouse_check_button(mb_left)) and (firingdelay < 0 )
 	firingdelay = 8;
 	with (instance_create_layer(x,y,"Bullets", oBullet))
 	{
-		speed = 30;
 		direction = other.image_angle;
 		image_angle = direction;
 	}
