@@ -1,2 +1,2 @@
-if (place_meeting(x,y,oWall)) instance_destroy();
+if (collision(x,y)) instance_destroy();
 

@@ -3,6 +3,7 @@
     {"id":{"name":"oTransition","path":"objects/oTransition/oTransition.yy",},"order":8,},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"order":6,},
     {"id":{"name":"sTree","path":"sprites/sTree/sTree.yy",},"order":12,},
+    {"id":{"name":"Collision","path":"scripts/Collision/Collision.yy",},"order":0,},
     {"id":{"name":"sPlayerRun","path":"sprites/sPlayerRun/sPlayerRun.yy",},"order":4,},
     {"id":{"name":"sTiles","path":"sprites/sTiles/sTiles.yy",},"order":14,},
     {"id":{"name":"sMountain","path":"sprites/sMountain/sMountain.yy",},"order":11,},
@@ -19,6 +20,7 @@
     {"id":{"name":"sSlimeJump","path":"sprites/sSlimeJump/sSlimeJump.yy",},"order":8,},
     {"id":{"name":"sGun","path":"sprites/sGun/sGun.yy",},"order":5,},
     {"id":{"name":"sSlimeRun","path":"sprites/sSlimeRun/sSlimeRun.yy",},"order":6,},
+    {"id":{"name":"rInit","path":"rooms/rInit/rInit.yy",},"order":2,},
     {"id":{"name":"sPlayer4","path":"sprites/sPlayer4/sPlayer4.yy",},"order":3,},
     {"id":{"name":"oBullet","path":"objects/oBullet/oBullet.yy",},"order":4,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
@@ -41,8 +43,9 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"room2","path":"rooms/room2/room2.yy",},},
+    {"roomId":{"name":"rInit","path":"rooms/rInit/rInit.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"room2","path":"rooms/room2/room2.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

@@ -24,7 +24,7 @@ if(!collision_circle(oPlayer.x,oPlayer.y-32,32,oWall,false,false)) {
 	while(instance_number(oEnemy) < 100) {
 		var _x = oPlayer.x+irandom_range(-100,100);
 		var _y = oPlayer.y-32;
-		while(collision_circle(_x,_y,32,oWall,false,false)) {
+		while(collision_circle(_x,_y,oWall,32,false,false)) {
 			_x = oPlayer.x+irandom_range(-100,100);
 		}
 	
