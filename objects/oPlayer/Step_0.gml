@@ -1,80 +1,89 @@
-key_left = keyboard_check(ord("A"));
-key_right = keyboard_check(ord("D"));
-key_jump = keyboard_check_pressed(vk_space) or keyboard_check_pressed(ord("W"));
 
-// Calculate movement
-
-var move = key_right - key_left;
-
-hsp = move * walksp;
-
-vsp += grv;
-
-if (collision(x , y+1 )) and (key_jump)
+if (hascontrol)
 {
-	vsp = -7;
-}
+	key_left = keyboard_check(ord("A"));
+	key_right = keyboard_check(ord("D"));
+	key_jump = keyboard_check_pressed(vk_space) or keyboard_check_pressed(ord("W"));
 
-//Horizontal collision
+	// Calculate movement
 
-if (collision(x+hsp ,y ))
-{
-	while (!collision(x+sign(hsp) ,y ))
+	var move = key_right - key_left;
+
+	hsp = move * walksp;
+
+	vsp += grv;
+
+	if (collision(x , y+1 )) and (key_jump)
 	{
-		x += sign(hsp);
+		vsp = -7;
 	}
-	hsp = 0;
-	
-}
-x = x + hsp;
 
-//Vertical collision
-if (collision(x ,y + vsp ))
-{
-	while (!collision(x ,y + sign(vsp)))
+	//Horizontal collision
+
+	if (collision(x+hsp ,y ))
 	{
-		y += sign(vsp);
+		while (!collision(x+sign(hsp) ,y ))
+		{
+			x += sign(hsp);
+		}
+		hsp = 0;
+	
 	}
-	vsp = 0;
-	
-}
-y += vsp;
+	x = x + hsp;
 
-//Animation(frames etc)
-
-//Jump animation
-if (!collision(x,y+1))
-{
-	 sprite_index = sPlayer4;
-	 image_speed = 0;
-	 if (sign(vsp) > 0) image_index = 1; else image_index = 0;
-	
-}
-//walking animation
-else 
-{
-	image_speed = 1;
-	if (hsp == 0)
+	//Vertical collision
+	if (collision(x ,y + vsp ))
 	{
-		sprite_index = sPlayer;
+		while (!collision(x ,y + sign(vsp)))
+		{
+			y += sign(vsp);
+		}
+		vsp = 0;
+	
+	}
+	y += vsp;
+
+	//Animation(frames etc)
+
+	//Jump animation
+	if (!collision(x,y+1))
+	{
+		 sprite_index = sPlayer4;
+		 image_speed = 0;
+		 if (sign(vsp) > 0) image_index = 1; else image_index = 0;
+	
+	}
+	//walking animation
+	else 
+	{
+		image_speed = 1;
+		if (hsp == 0)
+		{
+			sprite_index = sPlayer;
 		
 		
-	}
-	else
-	{
-		sprite_index = sPlayerRun;
+		}
+		else
+		{
+			sprite_index = sPlayerRun;
 		
-	}
+		}
 	
+	}
+
+	if (hsp != 0) image_xscale = sign(hsp);
+
+	if (hp <=0)
+	{
+		instance_destroy();	
+	}
+
 }
-
-if (hsp != 0) image_xscale = sign(hsp);
-
-if (hp <=0)
+else
 {
-	instance_destroy();	
+	key_right = 0;
+	key_left = 0
+	key_jump = 0
 }
-
-
 
 

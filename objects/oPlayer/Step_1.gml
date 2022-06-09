@@ -31,3 +31,4 @@ if(!collision_circle(oPlayer.x,oPlayer.y-32,32,oWall,false,false)) {
 		instance_create_layer(_x,_y,"Enemy",oEnemy);
 	}
 }
+
