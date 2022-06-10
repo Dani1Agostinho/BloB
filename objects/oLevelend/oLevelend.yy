@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite16",
-    "path": "sprites/Sprite16/Sprite16.yy",
+    "name": "sTriggerarea",
+    "path": "sprites/sTriggerarea/sTriggerarea.yy",
   },
   "solid": false,
   "visible": false,
