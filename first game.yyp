@@ -1,17 +1,20 @@
 {
   "resources": [
     {"id":{"name":"oTransition","path":"objects/oTransition/oTransition.yy",},"order":7,},
+    {"id":{"name":"fMenu","path":"fonts/fMenu/fMenu.yy",},"order":0,},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"order":5,},
     {"id":{"name":"sTree","path":"sprites/sTree/sTree.yy",},"order":12,},
     {"id":{"name":"Collision","path":"scripts/Collision/Collision.yy",},"order":0,},
     {"id":{"name":"sPlayerRun","path":"sprites/sPlayerRun/sPlayerRun.yy",},"order":4,},
     {"id":{"name":"Slide_Transition","path":"scripts/Slide_Transition/Slide_Transition.yy",},"order":1,},
+    {"id":{"name":"oMenu","path":"objects/oMenu/oMenu.yy",},"order":10,},
     {"id":{"name":"sMountain","path":"sprites/sMountain/sMountain.yy",},"order":16,},
     {"id":{"name":"sRealtrees","path":"sprites/sRealtrees/sRealtrees.yy",},"order":17,},
     {"id":{"name":"sTiles","path":"sprites/sTiles/sTiles.yy",},"order":14,},
     {"id":{"name":"room2","path":"rooms/room2/room2.yy",},"order":1,},
     {"id":{"name":"sBackground","path":"sprites/sBackground/sBackground.yy",},"order":13,},
     {"id":{"name":"oLevelend","path":"objects/oLevelend/oLevelend.yy",},"order":9,},
+    {"id":{"name":"rMenu","path":"rooms/rMenu/rMenu.yy",},"order":3,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
     {"id":{"name":"oGun","path":"objects/oGun/oGun.yy",},"order":1,},
     {"id":{"name":"oDead","path":"objects/oDead/oDead.yy",},"order":4,},
@@ -50,6 +53,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"rInit","path":"rooms/rInit/rInit.yy",},},
+    {"roomId":{"name":"rMenu","path":"rooms/rMenu/rMenu.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"room2","path":"rooms/room2/room2.yy",},},
   ],
