@@ -1,5 +1,5 @@
 
 
- Slide_Transition(TRANS_MODE.RESTART);
+ SlideTransition(TRANS_MODE.RESTART);
  
  

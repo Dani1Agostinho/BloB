@@ -26,6 +26,7 @@
     {"id":{"name":"sBullet","path":"sprites/sBullet/sBullet.yy",},"order":10,},
     {"id":{"name":"sSlimeJump","path":"sprites/sSlimeJump/sSlimeJump.yy",},"order":8,},
     {"id":{"name":"sGun","path":"sprites/sGun/sGun.yy",},"order":5,},
+    {"id":{"name":"oScore","path":"objects/oScore/oScore.yy",},"order":11,},
     {"id":{"name":"sSlimeRun","path":"sprites/sSlimeRun/sSlimeRun.yy",},"order":6,},
     {"id":{"name":"rInit","path":"rooms/rInit/rInit.yy",},"order":2,},
     {"id":{"name":"sPlayer4","path":"sprites/sPlayer4/sPlayer4.yy",},"order":3,},
