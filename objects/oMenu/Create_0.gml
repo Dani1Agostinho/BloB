@@ -6,7 +6,7 @@
 gui_margin = 32;
 
 menu_x = 250;
-menu_y = -gui_margin-210;
+menu_y = -gui_margin-150;
 menu_x_target = - gui_margin
 menu_speed = 25;
 menu_itemheight = font_get_size(fMenu);
