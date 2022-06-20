@@ -8,6 +8,7 @@
     {"id":{"name":"sPlayerRun","path":"sprites/sPlayerRun/sPlayerRun.yy",},"order":4,},
     {"id":{"name":"Slide_Transition","path":"scripts/Slide_Transition/Slide_Transition.yy",},"order":1,},
     {"id":{"name":"oMenu","path":"objects/oMenu/oMenu.yy",},"order":10,},
+    {"id":{"name":"oWin","path":"objects/oWin/oWin.yy",},"order":12,},
     {"id":{"name":"sMountain","path":"sprites/sMountain/sMountain.yy",},"order":16,},
     {"id":{"name":"sRealtrees","path":"sprites/sRealtrees/sRealtrees.yy",},"order":17,},
     {"id":{"name":"sTiles","path":"sprites/sTiles/sTiles.yy",},"order":14,},

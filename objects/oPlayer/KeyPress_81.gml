@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+/*
 god = !god;
 if god {
 	walksp = 10;
