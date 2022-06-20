@@ -1,2 +1,2 @@
 /// @desc Quit
-game_end();
+if(!isHTML) game_end();

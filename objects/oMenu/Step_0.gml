@@ -21,14 +21,14 @@ if (menu_control)
 	
 	if (keyboard_check_pressed(vk_enter))
 	{
-		menu_x_target = gui_width +200;
+		menu_x_target = 250;
 		menu_committed = menu_cursor
 		//ScreenShake(4,30);
 		menu_control = false;
 	}
 }
 
-if(menu_x > gui_width +150) && (menu_committed != -1)
+if(menu_x > 150) && (menu_committed != -1)
 {
 	switch (menu_committed)
 	{

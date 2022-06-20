@@ -20,8 +20,8 @@ for (var i = 0; i < menu_items; i += 1)
 			var col = c_gray	
 		}
 		
-		var xx = menu_x;
-		var yy = menu_y - (menu_itemheight * (i * 1.5));
+		var xx = menu_x + display_get_gui_width();
+		var yy = menu_y - (menu_itemheight * (i * 1.5)) + display_get_gui_height();
 		draw_set_color(c_black);
 		draw_text(xx - offset,yy,txt);
 		draw_text(xx + offset,yy,txt);
