@@ -1,6 +1,6 @@
 if (hp <= 0 )
 {
-	global.score += 100;
+	global.score += 1;
 	with(instance_create_layer(x,y,layer,oDead))
 	{
 		direction = other.hitfrom
