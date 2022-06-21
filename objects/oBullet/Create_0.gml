@@ -3,3 +3,4 @@
 
 timer = 10;
 speed = 20;
+fire = 0;
