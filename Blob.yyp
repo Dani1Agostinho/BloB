@@ -26,6 +26,7 @@
     {"id":{"name":"oDead","path":"objects/oDead/oDead.yy",},"order":4,},
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"order":2,},
     {"id":{"name":"oGlobal","path":"objects/oGlobal/oGlobal.yy",},"order":6,},
+    {"id":{"name":"oSpawner","path":"objects/oSpawner/oSpawner.yy",},"order":14,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":8,},
     {"id":{"name":"Sprite18","path":"sprites/Sprite18/Sprite18.yy",},"order":18,},
     {"id":{"name":"Shader1","path":"shaders/Shader1/Shader1.yy",},"order":0,},
@@ -98,7 +99,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.3.0.625",
+    "IDEVersion": "2022.5.1.16",
   },
   "resourceVersion": "1.5",
   "name": "Blob",
