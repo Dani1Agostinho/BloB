@@ -5,7 +5,6 @@
   },
   "solid": false,
   "visible": true,
-  "managed": true,
   "spriteMaskId": {
     "name": "sEnemybase",
     "path": "sprites/sEnemybase/sEnemybase.yy",
