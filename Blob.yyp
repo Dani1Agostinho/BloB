@@ -14,6 +14,7 @@
     {"id":{"name":"room2","path":"rooms/room2/room2.yy",},"order":1,},
     {"id":{"name":"sBackground","path":"sprites/sBackground/sBackground.yy",},"order":13,},
     {"id":{"name":"oLevelend","path":"objects/oLevelend/oLevelend.yy",},"order":9,},
+    {"id":{"name":"Sprite20","path":"sprites/Sprite20/Sprite20.yy",},"order":20,},
     {"id":{"name":"rMenu","path":"rooms/rMenu/rMenu.yy",},"order":3,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
     {"id":{"name":"oGun","path":"objects/oGun/oGun.yy",},"order":1,},
@@ -32,6 +33,7 @@
     {"id":{"name":"sPlayer4","path":"sprites/sPlayer4/sPlayer4.yy",},"order":3,},
     {"id":{"name":"Sprite19","path":"sprites/Sprite19/Sprite19.yy",},"order":19,},
     {"id":{"name":"oBullet","path":"objects/oBullet/oBullet.yy",},"order":3,},
+    {"id":{"name":"rWin","path":"rooms/rWin/rWin.yy",},"order":5,},
     {"id":{"name":"sTriggerarea","path":"sprites/sTriggerarea/sTriggerarea.yy",},"order":15,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":1,},
@@ -63,6 +65,7 @@
     {"roomId":{"name":"rMenu","path":"rooms/rMenu/rMenu.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"room2","path":"rooms/room2/room2.yy",},},
+    {"roomId":{"name":"rWin","path":"rooms/rWin/rWin.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
