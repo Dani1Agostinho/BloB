@@ -10,6 +10,7 @@ if (hascontrol)
 	var move = key_right - key_left;
 
 	hsp = move * walksp;
+	if move != 0 oScore.timeStart = true;
 
 	vsp += grv;
 
