@@ -25,6 +25,6 @@ if (layer_exists("CoolMountains"))
 	layer_x("CoolMountains",x/10);
 }
 
-if (layer_exists("CoolTrees")) layer_x("CoolTrees",x/5);
+if (layer_exists("CoolTrees")) layer_x("CoolTrees",x/4);
 
 

@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"oLoser","path":"objects/oLoser/oLoser.yy",},"order":13,},
     {"id":{"name":"oTransition","path":"objects/oTransition/oTransition.yy",},"order":7,},
     {"id":{"name":"fMenu","path":"fonts/fMenu/fMenu.yy",},"order":0,},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"order":5,},
@@ -20,6 +21,7 @@
     {"id":{"name":"Sprite20","path":"sprites/Sprite20/Sprite20.yy",},"order":20,},
     {"id":{"name":"rMenu","path":"rooms/rMenu/rMenu.yy",},"order":3,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
+    {"id":{"name":"rLoser","path":"rooms/rLoser/rLoser.yy",},"order":6,},
     {"id":{"name":"oGun","path":"objects/oGun/oGun.yy",},"order":1,},
     {"id":{"name":"oDead","path":"objects/oDead/oDead.yy",},"order":4,},
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"order":2,},
@@ -70,6 +72,7 @@
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"room2","path":"rooms/room2/room2.yy",},},
     {"roomId":{"name":"rWin","path":"rooms/rWin/rWin.yy",},},
+    {"roomId":{"name":"rLoser","path":"rooms/rLoser/rLoser.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -95,7 +98,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.5.1.16",
+    "IDEVersion": "2022.3.0.625",
   },
   "resourceVersion": "1.5",
   "name": "Blob",

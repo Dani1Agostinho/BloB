@@ -27,7 +27,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oWin",
+  "name": "oLoser",
   "tags": [],
   "resourceType": "GMObject",
 }
