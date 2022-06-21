@@ -6,11 +6,14 @@ if(current_time >= crazy_time) {
 		image_yscale = random_range(-5,5);
 		speed = 0;
 		if(timer == -9) {
-			for(var i = 0; i < 360; i += 5) {
+			for(var i = 0; i < 360; i += 18+fire*15) {
 				with(instance_create_layer(x,y,layer,oBullet)) {
 					direction = i;
 					speed = 30;
-					timer = -100;
+					if other.fire < 3 {
+						fire = other.fire + 1;
+					}
+					else timer = -100;
 				}
 			}
 			instance_destroy();

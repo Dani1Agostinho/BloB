@@ -8,4 +8,4 @@ hascontrol = true;
 god = false;
 
  
-#macro crazy_time (60 * 1000)
+#macro crazy_time (10 * 1000)
