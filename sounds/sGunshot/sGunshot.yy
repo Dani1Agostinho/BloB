@@ -11,14 +11,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sGun_shot.wav",
+  "soundFile": "sGunshot.wav",
   "duration": 0.142268,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sGun_shot",
+  "name": "sGunshot",
   "tags": [],
   "resourceType": "GMSound",
 }

@@ -10,6 +10,7 @@ if (mouse_check_button(mb_left)) and (firingdelay < 0 )
 {
 	recoil = 4;
 	firingdelay = 8;
+	audio_play_sound(sGunshot,5,false);
 	with (instance_create_layer(x,y,"Bullets", oBullet))
 	{
 		direction = other.image_angle;

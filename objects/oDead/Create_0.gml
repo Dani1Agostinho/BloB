@@ -6,4 +6,5 @@ done = 0;
 
 image_speed = 0;
 image_index = 1;
+audio_play_sound(sDeath,10,false);
 

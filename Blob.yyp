@@ -38,7 +38,7 @@
     {"id":{"name":"sBullet","path":"sprites/sBullet/sBullet.yy",},"order":10,},
     {"id":{"name":"sSlimeJump","path":"sprites/sSlimeJump/sSlimeJump.yy",},"order":8,},
     {"id":{"name":"sGun","path":"sprites/sGun/sGun.yy",},"order":5,},
-    {"id":{"name":"sGun_shot","path":"sounds/sGun_shot/sGun_shot.yy",},"order":1,},
+    {"id":{"name":"sGunshot","path":"sounds/sGunshot/sGunshot.yy",},"order":1,},
     {"id":{"name":"oControls","path":"objects/oControls/oControls.yy",},"order":15,},
     {"id":{"name":"oScore","path":"objects/oScore/oScore.yy",},"order":11,},
     {"id":{"name":"sSlimeRun","path":"sprites/sSlimeRun/sSlimeRun.yy",},"order":6,},
@@ -110,7 +110,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.5.1.16",
+    "IDEVersion": "2022.3.0.625",
   },
   "resourceVersion": "1.5",
   "name": "Blob",
