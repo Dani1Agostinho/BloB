@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sEnemybase",
-    "path": "sprites/sEnemybase/sEnemybase.yy",
+    "name": "sEnemybaseBig",
+    "path": "sprites/sEnemybaseBig/sEnemybaseBig.yy",
   },
   "solid": false,
   "visible": true,

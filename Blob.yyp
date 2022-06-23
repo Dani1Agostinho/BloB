@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"oLoser","path":"objects/oLoser/oLoser.yy",},"order":13,},
+    {"id":{"name":"sEnemybaseBig","path":"sprites/sEnemybaseBig/sEnemybaseBig.yy",},"order":22,},
     {"id":{"name":"oTransition","path":"objects/oTransition/oTransition.yy",},"order":7,},
     {"id":{"name":"fMenu","path":"fonts/fMenu/fMenu.yy",},"order":0,},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"order":5,},
