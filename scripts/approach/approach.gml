@@ -1,9 +1,7 @@
-function ApproachCircle(value,target,spd) {
-if angle_difference(target,value) > 180 {
-	value += spd;	
-} else value -= spd
-
-return value;
+function ApproachCircle(Value,Target,MaxSpd)
+{
+	Value += median(-MaxSpd,MaxSpd,angle_difference(Target,Value));
+	return Value
 }
 
 function Approach(a, b, amount)
