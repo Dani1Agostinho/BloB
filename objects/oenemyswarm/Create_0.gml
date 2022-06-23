@@ -20,7 +20,7 @@ for (var i = 0; i < sprite_width; i += size) {
 		turnSpd: random_range(10,20),
 		xNormal: x+i-sprite_xoffset,
 		yNormal: y+j-sprite_yoffset,
-		spd: random_range(3,6)
+		spd: random_range(4,7)
 		});
 	}
 }
