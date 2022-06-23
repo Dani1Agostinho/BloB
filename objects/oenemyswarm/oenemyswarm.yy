@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sEnemybase",
+    "path": "sprites/sEnemybase/sEnemybase.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

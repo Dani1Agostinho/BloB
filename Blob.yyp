@@ -48,7 +48,7 @@
     {"id":{"name":"Sprite19","path":"sprites/Sprite19/Sprite19.yy",},"order":19,},
     {"id":{"name":"oBullet","path":"objects/oBullet/oBullet.yy",},"order":3,},
     {"id":{"name":"rWin","path":"rooms/rWin/rWin.yy",},"order":5,},
-    {"id":{"name":"ApproachCircle","path":"scripts/ApproachCircle/ApproachCircle.yy",},"order":4,},
+    {"id":{"name":"Approach","path":"scripts/Approach/Approach.yy",},"order":4,},
     {"id":{"name":"sTriggerarea","path":"sprites/sTriggerarea/sTriggerarea.yy",},"order":15,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":1,},
