@@ -4,6 +4,7 @@ grv = 0.3;
 walksp = 4;
 hp = 10;
 hascontrol = true;
+jumpspd = -7;
 
 god = false;
 

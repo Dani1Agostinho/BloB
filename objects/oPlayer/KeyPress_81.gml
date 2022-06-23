@@ -4,8 +4,8 @@
 god = !god;
 if god {
 	walksp = 10;
-	grv = 0.1;
+	jumpspd = -12
 } else {
-	grv = 0.3;
+	jumpspd = -7; 
 	walksp = 4;
 }

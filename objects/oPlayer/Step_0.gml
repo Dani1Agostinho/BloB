@@ -16,7 +16,7 @@ if (hascontrol)
 
 	if (collision(x , y+1 )) and (key_jump)
 	{
-		vsp = -7;
+		vsp = jumpspd;
 	}
 
 	//Horizontal collision

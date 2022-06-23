@@ -7,3 +7,5 @@ hsp = walksp;
 hp = 10;
 flash = 0;
 hitfrom = 0;
+
+size = image_yscale;
