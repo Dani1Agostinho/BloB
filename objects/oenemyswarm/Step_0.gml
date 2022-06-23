@@ -4,7 +4,7 @@
 for (var i = 0; i < array_length(pixels); i++) {
 	var _index = pixels[i];
 	
-	if point_in_circle(oPlayer.x,oPlayer.y,xstart,ystart,250) {
+	if point_in_circle(oPlayer.x,oPlayer.y,xstart,ystart,300) {
 		_index.xNormal = Approach(_index.xNormal,oPlayer.x,2);
 		_index.yNormal = Approach(_index.yNormal,oPlayer.y,2);
 	} else {
