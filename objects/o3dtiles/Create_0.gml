@@ -3,23 +3,21 @@
 surface = noone;
 
 function LayerBegin() {
-	if event_type == ev_draw
-	   {
-	   if event_number == 0 {
-	with(o3DTiles) {
-		if !surface_exists(surface) surface = surface_create(room_width,room_height);
-		surface_set_target(surface);
-		draw_clear_alpha(c_black,0);
+	if event_type == ev_draw {
+		if event_number == 0 {
+			with(o3DTiles) {
+				if !surface_exists(surface) surface = surface_create(room_width,room_height);
+				surface_set_target(surface);
+				draw_clear_alpha(c_black,0);
+			}
+		}
 	}
-	   }
-	   }
 }
 
 function LayerEnd() {
-	if event_type == ev_draw
-	   {
-	   if event_number == 0 {
-		    if (surface_get_target() != application_surface) surface_reset_target();
+	if event_type == ev_draw {
+		if event_number == 0 {
+			if (surface_get_target() != application_surface) surface_reset_target();
 
 			//Paralax
 			with(o3DTiles) {
@@ -32,9 +30,8 @@ function LayerEnd() {
 					draw_surface_part_ext(surface,_x,_y,_w,_h,_x-i/2,_y-(i/2)/5,scale,scale,c_white,1);
 				}
 			}
-			draw_text(0,0,string(view_xport[0]));
-	   }
-	  }
+		}
+	}
 }
 
 layer_script_begin(layer_get_id("Wall"),LayerBegin);
