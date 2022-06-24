@@ -57,6 +57,7 @@ if (hascontrol)
 	//walking animation
 	else 
 	{
+		if(sprite_index == sPlayer4) audio_play_sound(sLanding,6,false);
 		image_speed = 1;
 		if (hsp == 0)
 		{
