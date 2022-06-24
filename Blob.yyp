@@ -22,6 +22,7 @@
     {"id":{"name":"sBackground","path":"sprites/sBackground/sBackground.yy",},"order":13,},
     {"id":{"name":"sFootsteep","path":"sounds/sFootsteep/sFootsteep.yy",},"order":2,},
     {"id":{"name":"oLevelend","path":"objects/oLevelend/oLevelend.yy",},"order":9,},
+    {"id":{"name":"o3DTiles","path":"objects/o3DTiles/o3DTiles.yy",},"order":18,},
     {"id":{"name":"Sprite20","path":"sprites/Sprite20/Sprite20.yy",},"order":20,},
     {"id":{"name":"rMenu","path":"rooms/rMenu/rMenu.yy",},"order":3,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
@@ -110,7 +111,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.3.0.625",
+    "IDEVersion": "2022.5.1.16",
   },
   "resourceVersion": "1.5",
   "name": "Blob",
