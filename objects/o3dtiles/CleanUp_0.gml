@@ -1,3 +1,3 @@
 /// @desc
 
-surface_free(surface);
+if sprite != noone sprite_delete(sprite);
