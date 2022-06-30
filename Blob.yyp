@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"oLoser","path":"objects/oLoser/oLoser.yy",},"order":13,},
     {"id":{"name":"sEnemybaseBig","path":"sprites/sEnemybaseBig/sEnemybaseBig.yy",},"order":22,},
+    {"id":{"name":"sFootsteep2","path":"sounds/sFootsteep2/sFootsteep2.yy",},"order":7,},
     {"id":{"name":"oTransition","path":"objects/oTransition/oTransition.yy",},"order":7,},
     {"id":{"name":"fMenu","path":"fonts/fMenu/fMenu.yy",},"order":0,},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"order":5,},
@@ -38,6 +39,7 @@
     {"id":{"name":"Shader1","path":"shaders/Shader1/Shader1.yy",},"order":0,},
     {"id":{"name":"sBullet","path":"sprites/sBullet/sBullet.yy",},"order":10,},
     {"id":{"name":"sSlimeJump","path":"sprites/sSlimeJump/sSlimeJump.yy",},"order":8,},
+    {"id":{"name":"sFootsteep4","path":"sounds/sFootsteep4/sFootsteep4.yy",},"order":6,},
     {"id":{"name":"sGun","path":"sprites/sGun/sGun.yy",},"order":5,},
     {"id":{"name":"sGunshot","path":"sounds/sGunshot/sGunshot.yy",},"order":1,},
     {"id":{"name":"oControls","path":"objects/oControls/oControls.yy",},"order":15,},
@@ -59,6 +61,7 @@
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},"order":2,},
     {"id":{"name":"oEnemyBig","path":"objects/oEnemyBig/oEnemyBig.yy",},"order":16,},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"order":0,},
+    {"id":{"name":"sFootsteep3","path":"sounds/sFootsteep3/sFootsteep3.yy",},"order":5,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
