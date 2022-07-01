@@ -5,6 +5,7 @@ walksp = 4;
 hp = 10;
 hascontrol = true;
 jumpspd = -7;
+runIndex = -1;
 
 god = false;
 

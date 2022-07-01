@@ -73,7 +73,10 @@ if (hascontrol)
 		else
 		{
 			sprite_index = sPlayerRun;
-		
+			
+			//Step sound when the frame index changes
+			if runIndex != floor(image_index) audio_play_sound(choose(sFootsteep,sFootsteep2,sFootsteep3,sFootsteep4), 8,false);
+			runIndex = floor(image_index);
 		}
 	
 	}
