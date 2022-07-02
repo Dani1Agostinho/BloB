@@ -59,8 +59,9 @@ if (hascontrol)
 	{
 		if(sprite_index == sPlayer4) 
 		{
-			audio_sound_pitch(sLanding, choose(0.8,1.0,1.2,1.4))
 			audio_play_sound(sLanding,6,false);
+			audio_sound_pitch(sLanding, choose(0.8,1.0,1.2,1.4));
+			
 		}
 		image_speed = 1;
 		if (hsp == 0)
