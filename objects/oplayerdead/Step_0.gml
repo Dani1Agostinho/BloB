@@ -25,6 +25,7 @@ if (done == 0)
 		if (vsp > 0 ) 
 		{
 			done = 1;
+			alarm[0] = 60;
 		}
 		while (!collision(x ,y + sign(vsp)))
 		{

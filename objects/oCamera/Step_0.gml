@@ -3,6 +3,14 @@ if (instance_exists(follow))
 {
 	xto = follow.x;
 	yto = follow.y;
+	
+	if ((follow).object_index == oPlayerdead)
+	{
+	
+		x = xto;
+		y = yto;
+		
+	}
 
 }
 
@@ -12,9 +20,13 @@ if (instance_exists(follow))
 x += (xto - x) / 25;
 y += (yto - y) / 25;
 
-x = clamp(x,view_w_half,room_width - view_w_half)
-y = clamp(y,view_h_half,room_height - view_h_half)
+x = clamp(x,view_w_half + buff,room_width - view_w_half - buff);
+y = clamp(y,view_h_half + buff,room_height - view_h_half - buff);
 
+//Making the screen shake
+x += random_range(-shake_remain, shake_remain);
+y += random_range(-shake_remain, shake_remain);
+shake_remain = max(0, shake_remain-((1/shake_length)*shake_magnitude));
 
 
 //Update camera view
